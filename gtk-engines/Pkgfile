@@ -2,7 +2,7 @@
 # URL: https://wiki.gnome.org/action/show/Design?action=show&redirect=GnomeArt
 # Maintainer: Juergen Daubert, jue at crux dot nu
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
-# Depends on: gtk intltool
+# Depends on:  gtk
 
 name=gtk-engines
 version=2.20.2
