@@ -1,11 +1,12 @@
 # Description: The Mozilla Firefox browser with Alsa support
 # URL: https://www.mozilla.com/firefox/
 # Maintainer: John McQuah, jmcquah at disroot dot org
-# Depends on: alsa-lib aom autoconf-2.13 brotli cbindgen dav1d dbus-glib ffmpeg graphite2 libevent libnotify libvpx libwebp libxkbcommon nodejs nss unzip xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt zip dav1d graphite2 libnotify clang
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: alsa-lib aom autoconf-2.13 brotli cbindgen clang dav1d dbus-glib ffmpeg graphite2 libevent libnotify libvpx libwebp libxkbcommon nodejs nss unzip xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt zip
 # Optional: apulse pulseaudio pipewire sndio sccache icu lld wayland
 
 name=firefox
-version=142.0
+version=142.0.1
 release=1
 source=(https://ftp.mozilla.org/pub/$name/releases/$version/source/$name-$version.source.tar.xz
   firefox.desktop
@@ -79,7 +80,7 @@ EOF
   [[ "$ICU_VER" =~ "not installed" ]] || (( ${ICU_VER%.*} < 76 )) || \
     echo 'ac_add_options --with-system-icu' >> .mozconfig
 
-  # disable jemalloc on systems without glibc 
+  # disable jemalloc on systems without glibc
   local LIBC=$(</var/lib/pkg/db awk -v RS="" -v FS="\n" '/\nusr\/lib\/libc.so\n/ { print $1 }')
   if [ "$LIBC" = glibc ]; then
      echo "ac_add_options --enable-jemalloc" >> .mozconfig
