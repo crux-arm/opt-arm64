@@ -1,0 +1,24 @@
+# Description: Ruby bindings for the ncurses library
+# URL: https://github.com/sup-heliotrope/ncursesw-ruby
+# Maintainer: Juergen Daubert, jue at crux dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: ruby
+
+name=ruby-ncurses
+version=1.4.13
+release=1
+source=(https://rubygems.org/downloads/ncursesw-$version.gem)
+
+build () {
+    gem install ncursesw \
+        --ignore-dependencies \
+        --no-user-install \
+        --no-document \
+        --local \
+        --build-root $PKG
+
+    cd $PKG/$(gem env gemdir)
+    rm -r cache doc build_info
+    cd gems/ncursesw-$version
+    rm COPYING Changes README.md THANKS TODO
+}
