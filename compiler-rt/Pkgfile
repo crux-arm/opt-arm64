@@ -26,6 +26,8 @@ build() {
         fi
     fi
 
+    export CFLAGS=$(echo "$CFLAGS" | sed 's|-mcpu=.* ||g')
+
     cmake -S $name-$version.src -B build -G Ninja \
         -D CMAKE_INSTALL_PREFIX=/usr \
         -D CMAKE_BUILD_TYPE=Release \
