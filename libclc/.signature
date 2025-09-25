@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMeBBcDs3zU1JLwiGMdUNQ6dkEnsRakib5v+OBpwia0BN1+fvhRLgVWGy99AukvsJsjhbP4bfxcLtSz2wZkLixgw=
-SHA256 (Pkgfile) = 35cdd195f975c0010a46aeedc255310559bd5f3d665a4a9eebe6c70600f905e0
+RWRitF9a2DJqMbke9Nzs/mNqvRtmp7vpYQWNE6B+/yp03soDOJW43lcxejFTJ6L6/mZYW2bFHcWWU+jtHMRye80XEFrTUw2qzAQ=
+SHA256 (Pkgfile) = 061f29792b33f2a0fb5ca5ca5231703de96a2db8d418771e6245ad2362e0af28
 SHA256 (.footprint) = 8d05eed261f593fc96e9313ee7f331bd2748d512fe6bb7078a54a8dda4808249
-SHA256 (libclc-21.1.1.src.tar.xz) = eed2926f2b981c10800573de3eded1ba41de0951f93f6d7c574c0896b4b1c816
+SHA256 (libclc-21.1.2.src.tar.xz) = 60031e0b3b07b0fc30d742aaf89910e7cb51526db775a5a162ec3ac4b739903d
