@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMc8dYNjW9ji5Z8poERLmXbXa+xyjwhThVgNI1B/A2WojDZqOgnP8bwzAReMhosS/HqV7FWRpc0bDp4rjwi2GxwM=
-SHA256 (Pkgfile) = 65269b56798d689bc58d6f37d30f4bd6bb549b4c9ad108b56ca066df6f3a405e
-SHA256 (.footprint) = d487c1f14874136ee1f36ea106c685223389c6e7296d7e75a72ba269123aca0b
-SHA256 (pandoc-3.8-linux-arm64.tar.gz) = 87cac7b2b02495c0533f75193b40837c50c5c313d905b19829c721d617a073b9
-SHA256 (pandoc-3.8.tar.gz) = 2d375526e7d26d46ebcdaf107564c8bbfd68e40a7af425906e9612889699bcf6
+RWRitF9a2DJqMXpeMpxjytF9OkCJnvugCaN26foedcOSG9Eynntsm5Bwx/oIo2WDlE5N7Cf9Rl5aQHXi5FUMgzbInKnCA7AG6go=
+SHA256 (Pkgfile) = 4d70da1bd95d74bc365e494debc25607a1ca0741b3f64e4992204b482c6903ce
+SHA256 (.footprint) = 7a951040faf92715ddeff024a60f311a9c6c0db8d21e81575ef27610c23a2ba4
+SHA256 (pandoc-3.8.1-linux-arm64.tar.gz) = b333dd83017cd0ca3748146c051034fff4eb0b05677e47f1aea36aa5240fd3b5
+SHA256 (pandoc-3.8.1.tar.gz) = 1d66d35952e7037cc049a9f170c9ba394693014a71925a84c55dffcaf98ff677
