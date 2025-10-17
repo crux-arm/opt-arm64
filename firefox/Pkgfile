@@ -6,7 +6,7 @@
 # Optional: apulse pulseaudio pipewire sndio sccache icu lld wayland
 
 name=firefox
-version=143.0.4
+version=144.0
 release=1
 source=(https://ftp.mozilla.org/pub/$name/releases/$version/source/$name-$version.source.tar.xz
   firefox.desktop
@@ -75,10 +75,11 @@ build() {
   ac_add_options --disable-system-extension-dirs
 EOF
 
-  # use system icu only if new enough
-  local ICU_VER="$(prt-get current icu)"
-  [[ "$ICU_VER" =~ "not installed" ]] || (( ${ICU_VER%.*} < 76 )) || \
-    echo 'ac_add_options --with-system-icu' >> .mozconfig
+  prt-get isinst icu >/dev/null && echo 'ac_add_options --with-system-icu' >> .mozconfig
+
+  # bugzilla 1988166: workaround for systems without the single_threaded header
+  [ -e /usr/include/sys/single_threaded.h ] || sed "/sys\/single_threaded.h/d" \
+    -i "$SRC"/$name-$version/config/system-headers.mozbuild
 
   # disable jemalloc on systems without glibc
   local LIBC=$(</var/lib/pkg/db awk -v RS="" -v FS="\n" '/\nusr\/lib\/libc.so\n/ { print $1 }')
