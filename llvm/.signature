@@ -1,9 +1,9 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMXM8SC7q20ZB+uf8drdHFEGdYanmeZFQvprWXpZwd9KTr5YbMQ5IZzL1MXAK+m87IKSDiE28uabXc1JIkVP8FgQ=
-SHA256 (Pkgfile) = 9019183b4d787187171301bb8d5e4e5e9c455d1c7b817ed8079a40d64370b47d
-SHA256 (.footprint) = f9551cca80637429356e1eb17a55dbf5ef1c8b77991b33d62f5ba02628b1fbfe
-SHA256 (llvm-21.1.3.src.tar.xz) = a80f2dbfa24a0c4d81089e6245936dcd0c662c90f643d1706bb44e7bc8338ff1
-SHA256 (cmake-21.1.3.src.tar.xz) = 4db6f028b6fe360f0aeae6e921b2bd2613400364985450a6d3e6749b74bf733a
-SHA256 (third-party-21.1.3.src.tar.xz) = 2bae76a7c7db4096b921589ae94c030727ee0dcb600bfe40353878937af61aa0
+RWRitF9a2DJqMVpUU5IAo6TgIjJxKNNysG1us6ExSNbaHnd7XI+jCuD5SsHxy9kFBMAfjCn1+prNUhbmemOEg/rdv9kED1qQzAU=
+SHA256 (Pkgfile) = 7975757f07bd6320e32c3f0def83543560cce51613121bbc3d3656da2418ed72
+SHA256 (.footprint) = 37b47e5272b7db1da2f140b554b1dbff477f1d3cb725dea9c548db4bb2f22499
+SHA256 (llvm-21.1.4.src.tar.xz) = f311681255deb37f74bbf950a653e9434e7d8383a7b46a603a323c46cd4bf50e
+SHA256 (cmake-21.1.4.src.tar.xz) = f4316d84a862ba3023ca1d26bd9c6a995516b4fa028b6fb329d22e24cc6d235e
+SHA256 (third-party-21.1.4.src.tar.xz) = ae8658390504e08e464f65ecea838a0584df4734c27cecedfe7eb32780e81564
 SHA256 (install-prefix.patch) = 2649b61a459eb6d8a9aca38ab411aec27eeae57fe82e32d135db4ccb353c9dda
 SHA256 (llvm-config.h) = cd292314d46c1ae02d10735244eb0a16e11adec4bed6d017132886d0b62f63dd
