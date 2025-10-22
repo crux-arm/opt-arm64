@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMcl7SPcPZS4uneP33u91zNVa5CLok2B9tvX+nG+Ydo3PwCT7puY6fRaR51VwUhwkf8doayb3Yk5tEoDPJ6JZyQk=
+RWRitF9a2DJqMcvWjeis+NLDN2zrCMicEdXGl9ZYkwy57hpYSgjXB6xxI/56E1YAw6bKhGswGRUW/veyE+zQC+e4v/C+XisrUg4=
 SHA256 (Pkgfile) = 2c6ba56e20ff1e7a33aa30db9617aa9bb033ba0b2ce247a311a3ab59b03448e7
-SHA256 (.footprint) = 5f144ea22290c9bbdb20b914fefc23e57ce3787a74171d85984149ac526f8b8e
+SHA256 (.footprint) = 1f276f5e9f92027d6afe939fe31112c1b7e330f16a63412c9be5261ca0a38df0
 SHA256 (go1.25.3.src.tar.gz) = a81a4ba593d0015e10c51e267de3ff07c7ac914dfca037d9517d029517097795
 SHA256 (go1.25.3.linux-arm64.tar.gz) = 1d42ebc84999b5e2069f5e31b67d6fc5d67308adad3e178d5a2ee2c9ff2001f5
