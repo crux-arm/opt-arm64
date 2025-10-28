@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMe1jDcKjKsg4VS5PGBNDaRthFNOmOXr3TPTIiQyn69l2NmRd0lejAjRMZAF/9WYy0E/DNin83Kr2tipRypBb4w0=
-SHA256 (Pkgfile) = 891c23ef5f9873f11b87d225541f8036f6118e0c45405d72283f0ef4d74e9f8a
-SHA256 (.footprint) = 0c4f8cb51c38f1b94649be3a7fb9f11a1e7df3dbc6027eb6d0f90b8c0e4a75d2
-SHA256 (brotli-v1.1.0.tar.gz) = e720a6ca29428b803f4ad165371771f5398faba397edf6778837a18599ea13ff
+RWRitF9a2DJqMUT8MOjGLK+Iwv/gAKPW2CsWoL9vCfMV8vj3CDJsnAFUXJg/78N7rsxWHnXfAxbKP6OX5aFix3cAEnReFxMaqgk=
+SHA256 (Pkgfile) = 3914ef6084c0bf7dc804dfa5c0129d41cdb59bda862efb86e2ebfe6f528a3f8d
+SHA256 (.footprint) = b1dc66e19c9d4341361c4f4423ab7817243fcd86fae3d25b6ca909e2871231a4
+SHA256 (brotli-v1.2.0.tar.gz) = 816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec
