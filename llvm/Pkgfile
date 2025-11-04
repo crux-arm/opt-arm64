@@ -6,12 +6,13 @@
 # Optional: lld
 
 name=llvm
-version=21.1.4
+version=21.1.5
 release=1
 source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/$name-$version.src.tar.xz
     https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/cmake-$version.src.tar.xz
     https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/third-party-$version.src.tar.xz
     install-prefix.patch
+    164775.patch
     llvm-config.h)
 
 build() {
@@ -22,6 +23,7 @@ build() {
   grep -rl '#!.*python' | xargs sed -i '1s/python$/python3/'
 
   patch -Np2 -d $name-$version.src -i $SRC/install-prefix.patch
+  patch -Np2 -d $name-$version.src -i $SRC/164775.patch
 
   cmake -S $name-$version.src -B build -G Ninja \
     -D CMAKE_INSTALL_PREFIX=/usr \
