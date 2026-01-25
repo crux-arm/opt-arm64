@@ -27,6 +27,7 @@ build() {
 	make
 	make DESTDIR=$PKG install
 	rm -rf $PKG/usr/share/{info,locale,grub/themes}
+	rm -rf $PKG/usr/lib/grub/{arm64-efi,grub2-arm64.efi}
 	gzip -d $SRC/unifont-9.0.06.pcf.gz
 	install -d $PKG/usr/lib/grub/fonts
 	./grub-mkfont -o $PKG/usr/lib/grub/fonts/unifont.pf2 \
