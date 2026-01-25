@@ -25,7 +25,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/grub-mkrelpath
 -rwxr-xr-x	root/root	usr/bin/grub-mkrescue
 -rwxr-xr-x	root/root	usr/bin/grub-mkstandalone
--rwxr-xr-x	root/root	usr/bin/grub-protect
 -rwxr-xr-x	root/root	usr/bin/grub-render-label
 -rwxr-xr-x	root/root	usr/bin/grub-script-check
 -rwxr-xr-x	root/root	usr/bin/grub-syslinux2cfg
