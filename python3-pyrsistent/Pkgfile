@@ -1,15 +1,16 @@
 # Description: Persistent/Immutable/Functional data structures for Python
 # URL: https://github.com/tobgu/pyrsistent
 # Maintainer: Matt Housh, jaeger at crux dot ninja
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Depends on: python3-six
 
 name=python3-pyrsistent
-version=0.20.0
+version=0.21.0
 release=1
 source=(https://github.com/tobgu/pyrsistent/archive/v$version/$name-$version.tar.gz)
 
 build() {
     cd pyrsistent-$version
-    python3 setup.py build
-    python3 setup.py install --root=$PKG
+    /usr/bin/python3 setup.py build
+    /usr/bin/python3 setup.py install --root=$PKG
 }
