@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMR3owsexDkBquVUmPC0j6of1vkkipZKIDTraCjJ2+oohaQ47zQwBhG1EXprlGSyxovtyRa8zY2KT9dGykcz0+Qk=
+SHA256 (Pkgfile) = c9ff556b765098f9dc3d84838e45c788a74bd5186a0aab66e79e4f105912512c
+SHA256 (.footprint) = 4d958c1e5b1db20d61c3fbd6e0802bd4399114b8c55292ad696e07dfa509096c
+SHA256 (rpds_py-0.30.0.tar.gz) = dd8ff7cf90014af0c0f787eea34794ebf6415242ee1d6fa91eaba725cc441e84
