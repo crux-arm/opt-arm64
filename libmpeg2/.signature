@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMbNeF/iMTWgCL1KMGAoWlVkNVQGBwoavoovOBL4b4iiogMtkPZ5+FaNEEo1laRB+f/gHo+BP8ttNtBHTFnPVNAw=
+SHA256 (Pkgfile) = 09beca72310b3fed90f5b09440647de181535fb6a62fdc70882262e98500974a
+SHA256 (.footprint) = 5af8c3c55d5f1657f7b702312b66af262d35b820ad9495766fb669f6ed92f9f7
+SHA256 (libmpeg2-0.5.1.tar.gz) = dee22e893cb5fc2b2b6ebd60b88478ab8556cb3b93f9a0d7ce8f3b61851871d4
