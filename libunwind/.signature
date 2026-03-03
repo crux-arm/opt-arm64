@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-arm64.pub
+RWRitF9a2DJqMUY/Lm4cFQyWayfPbDoaIIMYWvF0sFOf14VKCl9NmbJt+GNUQ8zzWYx9S7gwN2uw56RuxdXYqzhoWvD1Javl6AQ=
+SHA256 (Pkgfile) = cbcc39ec0b63f7facb119c0d3e100de40cee3947d55ef505eddc1a2d81134f1f
+SHA256 (.footprint) = cc39528ba4f8101a7ed402c416c380e1c8371f4b773eae7d2a1ec287c13db5ed
+SHA256 (libunwind-1.8.3.tar.gz) = be30d910e67f58d82e753231f1357f326a1a088acf126b21ff77e60aab19b90b

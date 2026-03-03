@@ -1,0 +1,23 @@
+# Description: Portable and efficient API to determine the call-chain of a program
+# URL: https://github.com/libunwind/libunwind/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Optional: texlive
+
+name=libunwind
+version=1.8.3
+release=1
+source=(https://github.com/libunwind/libunwind/releases/download/v$version/libunwind-$version.tar.gz)
+
+build() {
+  cd $name-$version
+
+  autoreconf -fvi
+  ./configure --prefix=/usr \
+    --libexecdir=/usr/lib/$name \
+    --enable-documentation
+  sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+
+  make
+  make DESTDIR=$PKG install
+}

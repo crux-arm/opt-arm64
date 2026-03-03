@@ -1,0 +1,96 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/libunwind-aarch64.h
+-rw-r--r--	root/root	usr/include/libunwind-common.h
+-rw-r--r--	root/root	usr/include/libunwind-coredump.h
+-rw-r--r--	root/root	usr/include/libunwind-dynamic.h
+-rw-r--r--	root/root	usr/include/libunwind-ptrace.h
+-rw-r--r--	root/root	usr/include/libunwind.h
+-rw-r--r--	root/root	usr/include/unwind.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libunwind-aarch64.a
+-rwxr-xr-x	root/root	usr/lib/libunwind-aarch64.la
+lrwxrwxrwx	root/root	usr/lib/libunwind-aarch64.so -> libunwind-aarch64.so.8.2.0
+lrwxrwxrwx	root/root	usr/lib/libunwind-aarch64.so.8 -> libunwind-aarch64.so.8.2.0
+-rwxr-xr-x	root/root	usr/lib/libunwind-aarch64.so.8.2.0
+-rw-r--r--	root/root	usr/lib/libunwind-coredump.a
+-rwxr-xr-x	root/root	usr/lib/libunwind-coredump.la
+lrwxrwxrwx	root/root	usr/lib/libunwind-coredump.so -> libunwind-coredump.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libunwind-coredump.so.0 -> libunwind-coredump.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libunwind-coredump.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libunwind-generic.a -> libunwind-aarch64.a
+lrwxrwxrwx	root/root	usr/lib/libunwind-generic.so -> libunwind-aarch64.so
+-rw-r--r--	root/root	usr/lib/libunwind-ptrace.a
+-rwxr-xr-x	root/root	usr/lib/libunwind-ptrace.la
+lrwxrwxrwx	root/root	usr/lib/libunwind-ptrace.so -> libunwind-ptrace.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libunwind-ptrace.so.0 -> libunwind-ptrace.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libunwind-ptrace.so.0.0.0
+-rw-r--r--	root/root	usr/lib/libunwind-setjmp.a
+-rwxr-xr-x	root/root	usr/lib/libunwind-setjmp.la
+lrwxrwxrwx	root/root	usr/lib/libunwind-setjmp.so -> libunwind-setjmp.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libunwind-setjmp.so.0 -> libunwind-setjmp.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libunwind-setjmp.so.0.0.0
+-rw-r--r--	root/root	usr/lib/libunwind.a
+-rwxr-xr-x	root/root	usr/lib/libunwind.la
+lrwxrwxrwx	root/root	usr/lib/libunwind.so -> libunwind.so.8.2.0
+lrwxrwxrwx	root/root	usr/lib/libunwind.so.8 -> libunwind.so.8.2.0
+-rwxr-xr-x	root/root	usr/lib/libunwind.so.8.2.0
+drwxr-xr-x	root/root	usr/lib/libunwind/
+drwxr-xr-x	root/root	usr/lib/libunwind/libunwind/
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Garm64-test-sve-signal
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Gperf-simple
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Gperf-trace
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Gtest-bt
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Gtest-concurrent
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Gtest-exc
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Gtest-init
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Gtest-resume-sig
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Gtest-resume-sig-rt
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Gtest-sig-context
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Gtest-trace
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Larm64-test-sve-signal
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Lperf-simple
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Lperf-trace
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Lrs-race
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Ltest-bt
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Ltest-concurrent
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Ltest-exc
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Ltest-init
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Ltest-init-local-signal
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Ltest-mem-validate
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Ltest-nocalloc
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Ltest-nomalloc
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Ltest-resume-sig
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Ltest-resume-sig-rt
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Ltest-sig-context
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Ltest-trace
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/Ltest-varargs
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/aarch64-test-frame-record
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/aarch64-test-plt
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/check-namespace.sh
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/crasher
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/forker
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/mapper
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/run-coredump-unwind
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/run-coredump-unwind-mdi
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/run-ptrace-mapper
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/run-ptrace-misc
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/test-async-sig
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/test-coredump-unwind
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/test-flush-cache
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/test-init-remote
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/test-mem
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/test-proc-info
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/test-ptrace
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/test-ptrace-misc
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/test-reg-state
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/test-runner
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/test-setjmp
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/test-static-link
+-rwxr-xr-x	root/root	usr/lib/libunwind/libunwind/test-strerror
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libunwind-coredump.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libunwind-generic.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libunwind-ptrace.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libunwind-setjmp.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libunwind.pc
