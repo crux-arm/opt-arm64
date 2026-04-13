@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMaDuAUcvMK8+sSoIY3bouFwtfWbUzrqeB4Tp8Z3JJ4kEDPpb1kto7lPMc6mg3M8XiICvAbFQsUCDa5NSoPPBNQg=
-SHA256 (Pkgfile) = d31bf8b9373296719bfc21587886439ddc52c9351c4a16d76016a290da19a6e0
-SHA256 (.footprint) = 050c5808e5973ea33ae5100dbcda3566d323d3c0cc85b12c063d5acf84ac2d35
-SHA256 (rootlesskit-2.3.6-aarch64.tar.gz) = 3edc52986c442576da856a66b59a61d16cf765359712c5ecf2d147c69f0df6e9
+RWRitF9a2DJqMezhZ8SCAYNBWWLixY1S0NizDNzblDCibuDVGap2g2wCYk0j6zyk6nzZv/myqfRlSG3xFhbmsnESZ2Wf6obG2Qs=
+SHA256 (Pkgfile) = 5ba37c34bbaadd179a84ac10527b7c55174ddbf508acecd60e7d8d211266ea72
+SHA256 (.footprint) = 62b5bd38ad6c44b9bccfedc8dfae7d08bbf3a019039ca7d0c79a48fff59d7635
+SHA256 (rootlesskit-3.0.0-aarch64.tar.gz) = 9a6ca1f21c5a21be7738d5cd4cbd287b59fe0c76424750295e10405ca18f0ed5
