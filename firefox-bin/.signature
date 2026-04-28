@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMQJQXNzKzTnK7AhTyL51QXwtNDSoA+WiUiVnqz/Pl9F+quPImg8/uzS1mjPItBexI6L8j6M+RGdWrmOZbM45fQs=
-SHA256 (Pkgfile) = b7418740b71f58a85d238250c6ae8c8dc7ecb59d61e919377bf25f90543334ab
+RWRitF9a2DJqMVEDg93nt6+tuTlyj30YIQwkvp7hFdXqtdzWSHcPiS+kM7sGJ3edwVfqaWBVsQuKWNync9vyxCPASiF6gWqi/wo=
+SHA256 (Pkgfile) = e449955d60af1531ac66e09027f8fcf414997d380b86f9b9b1c7d575fd3537e4
 SHA256 (.footprint) = 851a077bea51adb815dca095f057ecd32a4ca37bc3729fd46bca532b49ccbf90
-SHA256 (firefox-150.0.tar.xz) = 9e6e2974ddfa840544caf26efda765c4988931bf2ada85c6b107500cd916cee7
+SHA256 (firefox-150.0.1.tar.xz) = 518c3bcfe5b859a2fe0405f9fc9ac4271072dd68f3164629c4ecc14729ed9c7f
 SHA256 (policies.json) = cf856011307f7831d74cdacb4e80b6dceaa49882b8dcba008d527a78764903f4
 SHA256 (firefox.desktop) = 05bd1a4e283bc68f525f87cabf35ad0a59e5e63e107ce3901a4ac73e3d16ef33
