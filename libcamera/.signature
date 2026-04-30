@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMYeKVZFuP+pYOmIzqjYIvL/3W6Np6XGR8VHuIiyEzYbSp1ec8jOhQ2YfeJxXUB5Z2PqwA9BkXiJDNwu+D7oYoA4=
-SHA256 (Pkgfile) = 940ff527aa00b3ce62010cfef17b1cb0aa48eca9e0305e75273bcc0e4a9184cd
-SHA256 (.footprint) = 5fcdbc8f49fc3e686f07504097077a9457e5fe8df381a2dfb36872ee4bfdb30f
-SHA256 (libcamera-0.7.0.tar.gz) = 40530d976d18678693283ccf011f4b29f5110b3ae90f2b8ec5250f18fdf2e075
+RWRitF9a2DJqMdRCkjc5SYim++qKE6YRYx4u4qpTaf7OxE7wAmof6DsBzw4mBxADhnorpaeEEuQwsqep19yRO8WAgKYpUFiRvAw=
+SHA256 (Pkgfile) = a1d273b509fde53a978777d696cbedc9634cf2efa65b47d849d53db4a474f54d
+SHA256 (.footprint) = 71654a2ea93f21d675b17cd31137ee329958993b947addc66b52bc6491d7229d
+SHA256 (libcamera-0.7.1.tar.gz) = d9e73b8d9c38080aa874138d870faaf1b682199349c04b0a7710aba834e0d181
