@@ -5,9 +5,9 @@
 # Depends on: gtk3 dbus-glib xorg-libxcomposite xorg-libxcursor
 
 name=firefox-bin
-version=150.0.2
+version=150.0.3
 release=1
-source=(http://ftp.mozilla.org/pub/firefox/releases/$version/linux-aarch64/en-US/firefox-$version.tar.xz \
+source=(https://ftp.mozilla.org/pub/firefox/releases/$version/linux-aarch64/en-US/firefox-$version.tar.xz \
     policies.json firefox.desktop)
 
 build() {
