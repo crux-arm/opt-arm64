@@ -5,26 +5,26 @@
 # Depends on: yasm
 
 name=aom
-version=3.13.3
+version=3.14.0
 release=1
 source=(https://storage.googleapis.com/aom-releases/libaom-$version.tar.gz)
 
 build() {
-    cmake -S libaom-$version -B build -G Ninja \
-      -D CMAKE_INSTALL_PREFIX=/usr \
-      -D CMAKE_INSTALL_LIBDIR=lib \
-      -D CMAKE_BUILD_TYPE=Release \
-      -D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
-      -D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
-      -D BUILD_SHARED_LIBS=1 \
-      -D ENABLE_TESTS=0 \
-      -DENABLE_NEON=$(usex cpu_flags_arm_neon ON OFF) \
-      -DENABLE_ARM_CRC32=$(usex cpu_flags_arm_crc32 ON OFF) \
-      -DENABLE_NEON_DOTPROD=OFF \
-      -DENABLE_NEON_I8MM=OFF \
-      -DENABLE_SVE=OFF \
-      -Wno-dev
+  cmake -S libaom-$version -B build -G Ninja \
+    -D CMAKE_INSTALL_PREFIX=/usr \
+    -D CMAKE_INSTALL_LIBDIR=lib \
+    -D CMAKE_BUILD_TYPE=Release \
+    -D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+    -D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+    -D BUILD_SHARED_LIBS=ON \
+    -D ENABLE_TESTS=OFF \
+    -DENABLE_NEON=$(usex cpu_flags_arm_neon ON OFF) \
+    -DENABLE_ARM_CRC32=$(usex cpu_flags_arm_crc32 ON OFF) \
+    -DENABLE_NEON_DOTPROD=OFF \
+    -DENABLE_NEON_I8MM=OFF \
+    -DENABLE_SVE=OFF \
+    -Wno-dev
 
-    cmake --build build
-    DESTDIR=$PKG cmake --install build
+  cmake --build build
+  DESTDIR=$PKG cmake --install build
 }
