@@ -964,8 +964,6 @@ drwxr-xr-x	root/root	usr/lib/samba/ldb/
 -rwxr-xr-x	root/root	usr/lib/samba/libndr-samba4-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libnet-keytab-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libnetif-private-samba.so
--rwxr-xr-x	root/root	usr/lib/samba/libngtcp2-crypto-gnutls-private-samba.so
--rwxr-xr-x	root/root	usr/lib/samba/libngtcp2-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libnpa-tstream-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libnss-info-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libposix-eadb-private-samba.so
