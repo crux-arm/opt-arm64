@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMYZ7OXXqZd5Neh1lUlbp65uAqA9cpmZK7wX2ecBA/ONXMff5eZ4oBobI6pr7Bn4O0acdcjUROCvgU1+hfB9jiwQ=
-SHA256 (Pkgfile) = e951c83c665853a37fcc328a7d2a49a2649f2d25f9a4bf103015464484f88fe4
+RWRitF9a2DJqMaZerKkZJouTn6LrcUqLd1wLMSeK9d5f3dUeFdhlAhdG+uhnVx2qt3QbeVXKwDQCmuPo2wkQMxHagcEHcweC7QY=
+SHA256 (Pkgfile) = 7974f74e82465e43b21241218780b12d33dce150b6c0022461e75d3c571eb429
 SHA256 (.footprint) = cb21988fba9ea8c89313654fc3bc4b031d5c4e4a20fe429b2020e8f61e32f850
-SHA256 (llvm-project-22.1.7.src.tar.xz) = 5cc4a3f12bba50b6bdfb4b61bdc852117a0ff2517807c3902fc13267fb93562e
+SHA256 (llvm-project-22.1.8.src.tar.xz) = 922f1817a0df7b1489272d18134ee0087a8b068828f87ac63b9861b1a9965888
