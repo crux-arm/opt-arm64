@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMbiogWs1OJ6hBdDDFoEop+JmMT3Q37+5mfgMwRM/ScNYdmW8MSh+V0RQuqP8Bf6A3EGr6fOghZqNX/V/ZD9/xgo=
-SHA256 (Pkgfile) = 3f92a4d8b1cc0668fa71f21f6f8987a1699d75e24a87ba74360f00c31de77444
+RWRitF9a2DJqMdJyRAqzfYn9BMcwrvOVpyH4abcrBtg1EVRlPe8bE5aOCy4PHK0GGEX8sSYbadv5CdqawrgMh/qNvlO1RunobAs=
+SHA256 (Pkgfile) = f02f77cb21d727a1f9d5d61adf76f8a15afe0c94e2a410544eede67b360ee88a
 SHA256 (.footprint) = fd60992957bd0010460d49684c69464200651af797acdb98547f4847fc9f3f3c
-SHA256 (cbindgen-v0.29.3.tar.gz) = f3589ce10fd6a61b32d1ac1a1043112838e44b401432f4db9838c2a9ec4322f8
+SHA256 (cbindgen-v0.29.4.tar.gz) = 9b5757e915cf8be523d3aca282b9b5651bafa112e14bf1ba488562ba282807d6
