@@ -1,6 +1,7 @@
 # URL: http://gcc.gnu.org/fortran
 # Description: Fortran (f95) add-on for GNU GCC compiler.
-# Maintainer: Danny Rawlins, crux at romster dot me
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Depends on:  gcc
 
 name=gcc-fortran
