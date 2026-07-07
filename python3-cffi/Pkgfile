@@ -1,0 +1,17 @@
+# Description: Foreign Function Interface for Python calling C code.
+# URL: https://cffi.readthedocs.io/en/latest/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: python3-pycparser
+
+name=python3-cffi
+version=2.1.0
+release=1
+source=(https://pypi.org/packages/source/c/cffi/cffi-$version.tar.gz)
+
+build() {
+  cd cffi-$version
+
+  /usr/bin/python3 -m build --wheel --skip-dependency-check --no-isolation
+  /usr/bin/python3 -m installer --destdir=$PKG dist/*.whl
+}
