@@ -5,14 +5,14 @@
 # Depends on:  gcc
 
 name=gcc-fortran
-version=14.4.0
+version=16.1.0
 release=1
 source=(ftp://gcc.gnu.org/pub/gcc/releases/gcc-$version/gcc-$version.tar.xz
-  gcc-nocheck-fixincludes.patch gcc-4.7.3-multilib-dirs.patch)
+  gcc-nocheck-fixincludes.patch gcc-aarch64-dirs.patch)
 
 build() {
   patch -d gcc-$version -p 1 -i $SRC/gcc-nocheck-fixincludes.patch
-  patch -d gcc-$version -p 1 -i $SRC/gcc-4.7.3-multilib-dirs.patch
+  patch -d gcc-$version -p 1 -i $SRC/gcc-aarch64-dirs.patch
 
   # Do not run fixincludes
   sed -i -e 's|\./fixinc\.sh|-c true|' gcc-$version/gcc/Makefile.in

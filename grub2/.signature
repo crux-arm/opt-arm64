@@ -1,7 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMTbozaNM+q/5ghHKqxXnKjU8koCw2XIn7qvBtMc7a01LrKkhFZ9H6Vjyi7BRTtJyCd7jy4I3Jo5QVmR/d5f1Ygk=
+RWRitF9a2DJqMYStU1enWpZIc8YF8WY4s7ggYf/AD0vSLf0oM50T0HEZVGGV0nhuP9bGBALxJmmu9v1KgWHR+C67cN+OBxQoFwo=
 SHA256 (Pkgfile) = 37ba67103af103003a594982927a4576121d3f518a303a566f73b863d8650c40
-SHA256 (.footprint) = a7d2883f561821998947bae111ea0c5a2bfb8fb9d4797efd82e68859a5da4f43
 SHA256 (grub-2.14.tar.xz) = bc8d3c73535b8838d8c8e2654d73edc4e6ae8c8acdb45d5df5dc9a1547446d43
 SHA256 (unifont-9.0.06.pcf.gz) = 6d23e82ea3fd3d79849d675c0c30129b62a3973a83b4cdc05f9994efef773b86
 SHA256 (grub2-tweaks.diff) = 11261ece2e7025eecaf1c2d7145bdb1caaccd813104dd19c0b3301c95f51c59b

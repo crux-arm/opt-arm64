@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMf1mGfm89jKFUE/v3OyDC/fzfojrG+KUkJFw7s03PLVkehO+bElNOjos24QoNK4eCZqZ8JF8iQBZ6jtXHl4x7Q8=
-SHA256 (Pkgfile) = 4e8b9b1127a03bb758664110fbb3dcd19d36ea5a372f2ddeea6c170ae03b0978
-SHA256 (.footprint) = 2866786ae26f284b98628bc2e740b9a13e26a775c8fd821f101c2e62d164b2cb
-SHA256 (python3-pyrsistent-0.21.0.tar.gz) = afcd650ab5d7acfec0a977d5f6e52b54747adab36ebfc5d9f0bfcabd62ba0957

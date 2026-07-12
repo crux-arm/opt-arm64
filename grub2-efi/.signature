@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMY1FcMnD7TplUD8DKGPZ4oGvyK1ID3diNT6YEab6mhzBwWw8+NQViKXoiehEcW0I171aVJXTGsXtrelDhk+0NAE=
-SHA256 (Pkgfile) = de3bac17c35606875118e89470b74ed64b6dec3b1c8eed8c4393191ab883ba15
-SHA256 (.footprint) = 7142f8026d3898fb5ab06d20aa60b0601c541e26a7f69620b4a9dd6e2c2fdec5
-SHA256 (grub-2.14.tar.xz) = bc8d3c73535b8838d8c8e2654d73edc4e6ae8c8acdb45d5df5dc9a1547446d43
-SHA256 (extra_deps.lst) = 78d83a1c8ed69220853ac90114e0c7ea13fda00fbe6c81b1fedb1296479e62b4

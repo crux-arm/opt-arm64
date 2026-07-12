@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMTt6MmnV3kGAYde5jATYqTeHeB8D6G3efUtOUI8QSoESzO0gqgCnB8xnJ/T/fSzuPzF1U+FwZ9yYPtAVCrQAdQY=
-SHA256 (Pkgfile) = 2b819240efe593b019c63101c8d8f2001feb7f3b6abd9170620f53db46ff8dcc
-SHA256 (.footprint) = c8cd0da2b1eb7ae51da2e355d3833665bcc3413d4d3be487f7a20086087cf54a
-SHA256 (ruamel_yaml_clib-0.2.15.tar.gz) = 46e4cc8c43ef6a94885f72512094e482114a8a706d3c555a34ed4b0d20200600
