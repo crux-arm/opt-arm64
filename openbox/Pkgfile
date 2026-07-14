@@ -2,7 +2,7 @@
 # URL: http://openbox.org
 # Maintainer: CRUX System Team, core-ports at crux dot nu
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
-# Depends on: libxml2 pango xorg-libxinerama xorg-libxrandr
+# Depends on: pango xorg-libxinerama xorg-libxrandr
 
 name=openbox
 version=3.6.1
