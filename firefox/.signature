@@ -1,8 +1,9 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMfGHES8bRC+HSOiG1cVYX3+FYd/FZlbCHI1kl/3MimoEWbX73IVRYyGK4Qd7XeXwaZYHmjYV37j6jajeFSwk2AE=
-SHA256 (Pkgfile) = 3407e8e1212432c0ef7c23e902574a71a114c1d3910e58faae195363fbd5361e
+RWRitF9a2DJqMeXzzDIYIoGsBVdIzPbDUEWt9pJWFTOYBFs0hRGSac27N5j29ywE3lcMX1kq9QdtfaDQRSt6fNwGzyoIeJmUbAc=
+SHA256 (Pkgfile) = e69231d589235f673827a6f10973841f4222a3fce11729164953d6384b7f4197
 SHA256 (.footprint) = cf0656a45d75a3557ef0944266fda9ff1b1b53d90c5deccad8234f8ce16bca52
-SHA256 (firefox-153.0.1.source.tar.xz) = ac586cfe4573cd02a0b96dd496ae28da0157a9fcc6530ede6b1decfd2a3fb512
+SHA256 (firefox-153.0.4.source.tar.xz) = f7aa83924c66bb3b04cf139b3b00612d388a9f024c92fe7834161553a6028a48
 SHA256 (firefox.desktop) = a092fddc62bf5bff0c0f7891f59278463fa9b6ec24e9d811e49cd10b2282bdee
 SHA256 (fix-target-detection.patch) = 33199c6d64a2a775b4ede35aae84b95cef8476e8995a1d1b99eb65efb59008f4
+SHA256 (Bug-2057577-DOM-Media-Add-FFmpeg-63-support.patch) = 55aeec4d098990e91f881de32126ea91576b0d185e322b561241c513ea5b9fcd
 SHA256 (node-stdout-nonblocking-wrapper) = bb8c503015e49ed1b152225bdc56cf502cd831f35962d113dcbb9121967f3523
