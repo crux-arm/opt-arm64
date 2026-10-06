@@ -1,11 +1,11 @@
 # Description: A set of python bindings for cairo.
 # URL: https://pypi.org/project/pycairo/
-# Maintainer: Danny Rawlins, crux at romster dot me
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Depends on: cairo
 
 name=python3-cairo
-version=1.29.1
+version=1.29.2
 release=1
 source=(https://github.com/pygobject/pycairo/releases/download/v$version/pycairo-$version.tar.gz)
 
