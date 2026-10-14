@@ -2,7 +2,7 @@
 # URL: http://www.gnu.org/software/grub/
 # Maintainer: Matt Housh, jaeger at crux dot ninja
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
-# Depends on: libdevmapper freetype libnvme keytools
+# Depends on: libdevmapper freetype libnvme keyutils
 
 name=grub2
 version=2.16
