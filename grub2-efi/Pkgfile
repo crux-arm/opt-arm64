@@ -1,12 +1,13 @@
 # Description: GNU GRUB2 (EFI version)
 # URL: http://www.gnu.org/software/grub/
 # Maintainer: Matt Housh, jaeger at crux dot ninja
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Depends on: grub2 efibootmgr
 
 name=grub2-efi
-version=2.14
+version=2.16
 release=1
-source=(http://ftp.gnu.org/gnu/grub/grub-$version.tar.xz extra_deps.lst)
+source=(https://gitlab.freedesktop.org/api/v4/projects/26558/packages/generic/source-assets/grub-$version/grub-$version.tar.xz extra_deps.lst)
 
 build() {
     export CFLAGS="${CFLAGS} -Wno-error"
