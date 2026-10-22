@@ -6,7 +6,7 @@
 # Optional: apulse pulseaudio pipewire sndio sccache icu lld wayland xdg-desktop-portal-gtk
 
 name=firefox
-version=157.0
+version=158.0.1
 release=1
 source=(https://ftp.mozilla.org/pub/$name/releases/$version/source/$name-$version.source.tar.xz
   firefox.desktop
@@ -145,7 +145,6 @@ EOF
   DESTDIR="$PKG" ./mach install
 
   # Remove crap
-  rm -rf "$PKG"/usr/lib/firefox/browser/features
   rm -f "$PKG"/usr/lib/firefox/removed-files
 
   install -D -m 0644 "$SRC"/firefox.desktop "$PKG"/usr/share/applications/firefox.desktop
