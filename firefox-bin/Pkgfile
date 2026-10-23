@@ -3,9 +3,10 @@
 # Maintainer: CRUX System Team, core-ports at crux dot nu
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Depends on: gtk3 dbus-glib xorg-libxcomposite xorg-libxcursor
+# Optional: xdg-desktop-portal-gtk
 
 name=firefox-bin
-version=157.0.1
+version=158.0.1
 release=1
 source=(https://ftp.mozilla.org/pub/firefox/releases/$version/linux-aarch64/en-US/firefox-$version.tar.xz \
     policies.json firefox.desktop)
