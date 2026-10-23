@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-arm64.pub
-RWRitF9a2DJqMfSGk8Mqf2JnDGP3iRF4c1nv2Qqwvf3petNcIbiZ+MGP2niM7Xz+w4BI/DjHFRTt5ouTcgRb3Vub87ItWxiZngo=
-SHA256 (Pkgfile) = 00213cd6990df77870baa37af0a4bf322f770c496a89e04ef6e338c6026b6e48
-SHA256 (.footprint) = 6db2a422db37ad3ca384f8baea973e89292891ee4cd3eb408b21dbd50d10f9bb
-SHA256 (ncursesw-1.4.13.gem) = 6636cecb0d88a9675c7f137a972eae5fc1a9c2c1d6dcc9bbeb844a69c91906f4
+RWRitF9a2DJqMdWHvlXoa/rTipD2OgZG2+8aJ0f3n975szsGN3q87XW/8x0VJMNO9ucJEHdKR0l06MUtGZKWwibCjs5HBLWaCwM=
+SHA256 (Pkgfile) = 6783ec0dd6ccd663dae68cd1cea5ea2422a1389496d284df198ac741d5ce8936
+SHA256 (.footprint) = cc3d47b162725b5d6c250c5b731de80802b941f4fbc8399ca7cdbccf17e781c8
+SHA256 (ncursesw-1.4.14.gem) = b769430351e18abc4097e3b4c7569c2da06737b09243bfd9aa8303f63e1cecb5
