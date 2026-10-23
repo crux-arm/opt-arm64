@@ -1,11 +1,11 @@
 # Description: Brotli compression library
 # URL: https://github.com/google/brotli
-# Maintainer: Danny Rawlins, crux at romster dot me
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Depends on:  ninja
 
 name=brotli
-version=1.2.0
+version=1.2.1
 release=1
 source=(https://github.com/google/$name/archive/v$version/$name-v$version.tar.gz)
 
